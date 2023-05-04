@@ -21,7 +21,7 @@ body {
   align-items: center;
   color: whitesmoke;
   background-color: black;
-  font-size: 22px;
+  font-size: 14px;
   padding: 20px;
   font-weight: bolder;
 }
@@ -32,6 +32,53 @@ body {
   align-items: center;
   padding: 10px 20px;
   background-color: white;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-logo {
+  width: 180px;
+  height: auto;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-deals {
+    font-size: 10px;
+  }
+  .main-header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 20px 0px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 
 h1 {
