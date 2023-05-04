@@ -80,32 +80,3 @@ nav ul li a:hover {
     padding: 10px;
   }
 }
-
-h1 {
-  font-size: 45px;
-}
-
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 22px;
-  font-weight: bolder;
-  padding: 20px;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-.main-logo {
-  width: 150px;
-  height: auto;
-}
-
-.main-image {
-  width: 100%;
-  height: auto;
-}
